@@ -1,0 +1,78 @@
+
+/* Dizajnirao Zekirija Alomerovic */
+
+body { 
+  background: white; 
+  font-family: 'Roboto';
+  color: black;
+  margin: 0;
+  animation: pojaviSe 1.5s;
+} 
+a { 
+  text-decoration: none; 
+  transition: all 0.5s ease;
+}
+
+a:hover { opacity: 0.5; }
+
+
+.drzac { width: 75%; margin: 0 auto; margin-top: 50px; margin-bottom: 50px; }
+
+.red { 
+  display: table;
+  width: 100%;
+ }
+
+ .kutija { display: table-cell; }
+
+ .centrirani-tekst { text-align: center; }
+
+
+ /* Animacija za malo lepsi izgled */
+ @keyframes pojaviSe {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+.grafikon {
+  width: 100%;
+  position: relative;
+  height: 500px;
+  background: rgb(249 249 249);
+  border: 1px solid #e0e0e0;
+}
+
+.grafici {width: 80%;height: 100%;position: absolute;padding-left: 20%;}
+
+.legenda {width: 20%;position: absolute;left: 0;height: 100%;background: #f1f1f1;}
+.legenda h3 { padding: 10px; }
+
+.laksi-tekst { font-weight: 300;}
+
+.grafik {width: 50px;height: 100%;padding: 0 10px;display: inline-block;margin: 0 50px;}
+
+.crvena { background: #ec6262;  }
+.plava { background: #6293ec; }
+.zuta { background: #e1d276; }
+.zelena { background: #99ea86; }
+.roze { background: #e4a8f9; }
+.siva { background: #999999; }
+
+.tekst-crvena { color: #ec6262; }
+.tekst-plava { color: #6293ec; }
+.tekst-zuta { color: #e1d276;}
+.tekst-zelena { color: #99ea86; }
+.tekst-roze { color: #e4a8f9; }
+.tekst-siva { color: #999999; }
+
+
+.visina-10 { height: 10%; }
+.visina-20 { height: 20%; }
+.visina-30 { height: 30%; }
+.visina-40 { height: 40%; }
+.visina-50 { height: 50%; }
+.visina-60 { height: 60%; }
+.visina-70 { height: 70%; }
+.visina-80 {/* height: 80%; */}
+.visina-90 { height: 90%; }
