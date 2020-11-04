@@ -43,7 +43,7 @@ a:hover { opacity: 0.5; }
   border: 1px solid #e0e0e0;
 }
 
-.grafici {width: 80%;height: 100%;position: absolute;padding-left: 20%;}
+.grafici {width: 80%;height: 100%;position: absolute; right:0; bottom: 0;}
 
 .legenda {width: 20%;position: absolute;left: 0;height: 100%;background: #f1f1f1;}
 .legenda h3 { padding: 10px; }
